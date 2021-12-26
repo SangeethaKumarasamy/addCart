@@ -52,8 +52,7 @@ const Cart = () => {
                       </button>
                       <button
                         className="btn btn-success ms-2"
-                        onClick={() => removeItem(item.id)}
-                      >
+                        onClick={() => removeItem(item.id)}>
                         Remove Item
                       </button>
                     </td>
